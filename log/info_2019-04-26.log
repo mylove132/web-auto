@@ -1,0 +1,98 @@
+2019-04-26 10:19:13,270 [Thread-2:123145471053824] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 10:31:00,150 [uWSGIWorker1Core0:140735885751232] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 10:31:43,007 [uWSGIWorker4Core0:140735885751232] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 10:34:54,235 [uWSGIWorker1Core0:140735885751232] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/login
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/middleware/common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/middleware/common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:9000/api/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2019-04-26 11:01:49,683 [uWSGIWorker4Core0:140735885751232] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 11:06:05,760 [uWSGIWorker4Core0:140735885751232] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 11:06:12,192 [uWSGIWorker4Core0:140735885751232] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 11:06:41,475 [uWSGIWorker4Core0:140735885751232] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 11:07:03,974 [uWSGIWorker4Core0:140735885751232] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 11:34:48,086 [Thread-2:123145544486912] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2019-04-26 11:35:44,807 [Thread-3:123145544486912] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2019-04-26 11:52:08,603 [Thread-4:123145544486912] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2019-04-26 11:58:22,179 [Thread-5:123145544486912] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'dict'>`
+2019-04-26 12:08:34,018 [Thread-8:123145544486912] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 12:08:59,993 [Thread-9:123145544486912] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 12:09:02,273 [Thread-10:123145544486912] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 12:11:38,788 [Thread-11:123145544486912] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 12:12:23,451 [Thread-12:123145544486912] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 12:12:26,395 [Thread-13:123145544486912] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 17:42:12,702 [Thread-8:123145432002560] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 17:42:15,044 [Thread-9:123145432002560] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 17:42:31,615 [Thread-10:123145432002560] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 17:42:32,935 [Thread-11:123145432002560] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-04-26 17:42:46,088 [Thread-12:123145432002560] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan

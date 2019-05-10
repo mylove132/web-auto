@@ -1,0 +1,14 @@
+2019-05-07 09:43:28,567 [Thread-2:123145346109440] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/undefined
+2019-05-07 10:52:24,825 [Thread-23:123145346109440] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-05-07 15:09:19,698 [Thread-33:123145346109440] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-05-07 15:40:52,211 [Thread-41:123145346109440] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-05-07 16:17:52,385 [Thread-66:123145346109440] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherPad/module/user/zhangyadan
+2019-05-07 16:59:49,578 [Thread-30:123145318014976] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherSpace/module/user/zhangyadan
+2019-05-07 16:59:51,309 [Thread-31:123145318014976] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherSpace/module/user/undefined
+2019-05-07 17:23:36,946 [Thread-52:123145318014976] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherSpace/module/user/undefined
+2019-05-07 17:23:46,389 [Thread-53:123145318014976] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherSpace/module/user/undefined
+2019-05-07 17:59:55,415 [Thread-81:123145323270144] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherSpace/module/user/zhangyadan
+2019-05-08 09:49:40,178 [Thread-106:123145323270144] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/teacherSpace/module/user/undefined
+2019-05-08 10:12:38,503 [Thread-140:123145323270144] [django.request:228] [log:log_response] [WARNING]- Not Found: /api/teacherSpace/module/user/
+2019-05-08 10:13:53,450 [Thread-147:123145323270144] [django.request:228] [log:log_response] [WARNING]- Not Found: /api/teacherSpace/module/user/
+2019-05-08 10:15:06,487 [Thread-151:123145323270144] [django.request:228] [log:log_response] [WARNING]- Not Found: /api/teacherSpace/module/user/
