@@ -1,0 +1,5 @@
+2019-05-14 13:31:05,574 [Thread-2:123145471442944] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/
+2019-05-14 14:03:16,942 [Thread-34:123145471442944] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/mo/4
+2019-05-14 15:31:57,657 [Thread-64:123145471442944] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/list/
+2019-05-14 16:03:41,047 [Thread-81:123145471442944] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/mo/4
+2019-05-15 19:48:37,515 [Thread-92:123145471442944] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/list/

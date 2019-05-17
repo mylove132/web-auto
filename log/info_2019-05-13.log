@@ -1,0 +1,35 @@
+2019-05-13 09:44:07,638 [Thread-2:123145331290112] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/user/zhangyadan
+2019-05-13 10:29:51,808 [Thread-7:123145490186240] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/user/zhangyadan
+2019-05-13 12:39:52,721 [Thread-2:123145433182208] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/user/zhangyadan
+2019-05-13 15:29:21,314 [Thread-12:123145433182208] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/user/zhangyadan
+2019-05-13 16:31:19,836 [Thread-2:123145336856576] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/
+2019-05-13 16:44:37,590 [Thread-2:123145520422912] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/module/list/
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/apps/business/views.py", line 196, in get
+    self.dispatch()
+TypeError: dispatch() missing 1 required positional argument: 'request'
+2019-05-13 17:27:51,041 [Thread-2:123145368928256] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/list/
+2019-05-13 18:03:41,667 [Thread-16:123145368928256] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/mo/4
+2019-05-13 18:03:58,852 [Thread-17:123145368928256] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/mo/4
+2019-05-13 18:34:18,629 [Thread-50:123145368928256] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/list/
+2019-05-14 09:44:39,875 [Thread-82:123145368928256] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/mo/4
+2019-05-14 10:23:16,631 [Thread-109:123145368928256] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/list/
+2019-05-14 10:54:02,241 [Thread-144:123145368928256] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/mo/4
+2019-05-14 11:25:13,652 [Thread-169:123145368928256] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/
+2019-05-14 11:26:50,631 [Thread-172:123145374183424] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/mo/4

@@ -61,3 +61,7 @@ Traceback (most recent call last):
 AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
 2019-05-10 16:25:18,070 [Thread-2:123145503498240] [django.request:228] [log:log_response] [WARNING]- Not Found: /api/testScripts/2
 2019-05-10 16:32:07,646 [Thread-2:123145404719104] [django.request:228] [log:log_response] [WARNING]- Not Found: /api/testScripts/mo/2
+2019-05-10 16:58:50,859 [Thread-2:123145441845248] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/user/zhangyadan
+2019-05-10 17:53:31,873 [Thread-85:123145441845248] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/user/zhangyadan
+2019-05-10 18:27:28,538 [Thread-93:123145441845248] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/user/zhangyadan
+2019-05-10 18:40:31,038 [Thread-110:123145441845248] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/user/zhangyadan

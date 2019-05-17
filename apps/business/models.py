@@ -45,15 +45,30 @@ class PressureTest(models.Model):
         (3,'websocket')
     )
 
+    '''
+       接口请求类型
+       '''
+    request_type_index = (
+        (1, 'GET'),
+        (2, 'POST'),
+        (3, 'DELETE')
+    )
+
     pre_time = models.IntegerField(default=200,verbose_name='压测时长')
     pre_num = models.IntegerField(default=100, verbose_name='并发数')
     pre_type = models.IntegerField(choices=pre_type_index,default=1,verbose_name='压测接口类型')
+    pre_interface_request_type =  models.IntegerField(blank=True,null=True,choices=request_type_index,default=1,verbose_name='压测接口请求类型')
+    pre_interface_timeout_time = models.IntegerField(default=5000,blank=True,null=True, verbose_name='压测接口类型')
     pre_interface_name = models.CharField(max_length=20,blank=False, null=False, verbose_name='压测接口名称')
-    pre_interface = models.CharField(max_length=100, blank=False,null=False,verbose_name='压测接口')
-    pre_interface_method = models.CharField(max_length=50,blank=False,null=False,verbose_name='压测接口方法')
-    pre_interface_param_type = models.CharField(max_length=100,verbose_name='压测接口参数类型')
-    pre_interface_param_key = models.CharField(max_length=100,verbose_name='压测接口参数key')
-    pre_interface_param_value = models.CharField(max_length=100, verbose_name='压测接口参数value')
+    pre_interface = models.CharField(max_length=100, blank=True,null=True,verbose_name='压测接口')
+    response_assert = models.CharField(max_length=100, blank=True, null=True, verbose_name='响应断言')
+    pre_interface_method = models.CharField(max_length=50,blank=True,null=True,verbose_name='压测接口方法')
+    url = models.CharField(max_length=200, blank=True, null=True, verbose_name='压测接口url')
+    cookies = models.CharField(max_length=300, blank=True, null=True, verbose_name='压测接口cookies')
+    header = models.CharField(max_length=300, blank=True, null=True, verbose_name='压测接口header')
+    pre_interface_param_type = models.CharField(blank=True,null=True,max_length=100,verbose_name='压测接口参数类型')
+    pre_interface_param_key = models.CharField(blank=True,null=True,max_length=100,verbose_name='压测接口参数key')
+    pre_interface_param_value = models.CharField(blank=True,null=True,max_length=300, verbose_name='压测接口参数value')
     create_time = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
     update_time = models.DateTimeField(auto_now_add=True, verbose_name='更新时间')
     module = models.ForeignKey(Module, related_name='module', on_delete=models.CASCADE, default=1)

@@ -1,0 +1,327 @@
+2019-05-17 11:40:46,770 [Thread-37:123145537327104] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/module/list/
+2019-05-17 16:13:59,885 [Thread-11:123145413017600] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/mo/4
+2019-05-17 17:42:41,341 [Thread-2:123145427734528] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/testScripts/mo/4
+2019-05-17 17:43:27,633 [Thread-9:123145427734528] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:45:10,329 [Thread-3:123145318084608] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:46:22,648 [Thread-3:123145488826368] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:47:03,894 [Thread-2:123145455271936] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:47:44,970 [Thread-3:123145433305088] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:48:29,136 [Thread-2:123145541304320] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:48:48,307 [Thread-2:123145318207488] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:49:24,118 [Thread-2:123145329410048] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:50:12,533 [Thread-3:123145511956480] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:51:40,482 [Thread-3:123145544036352] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:52:36,602 [Thread-2:123145557331968] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:56:11,464 [Thread-2:123145579233280] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:59:02,599 [Thread-2:123145509122048] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 17:59:54,393 [Thread-2:123145444368384] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 18:10:44,739 [Thread-2:123145413181440] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 18:12:51,267 [Thread-4:123145500778496] [django.request:228] [log:log_response] [WARNING]- Forbidden: /api/execScripts/4
+2019-05-17 18:13:09,031 [Thread-9:123145500778496] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 18:20:57,727 [Thread-2:123145444368384] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 18:22:56,015 [Thread-2:123145557168128] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2019-05-17 18:23:42,193 [Thread-2:123145506852864] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /api/execScripts/4
+Traceback (most recent call last):
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/Users/liuzhanhui/workspace/python/web_auto/venv/lib/python3.6/site-packages/rest_framework/views.py", line 412, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
